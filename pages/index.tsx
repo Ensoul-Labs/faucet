@@ -13,8 +13,8 @@ export default function Home() {
   const [result, setResult] = useState<string>('');
   const [errMessage, setErrMessage] = useState<string>('');
 
-  const BACKEND_ADDR = "https://us-central1-ensoul-labs-df8ed.cloudfunctions.net/app";
-  // const BACKEND_ADDR = "http://localhost:5001/ensoul-labs-df8ed/us-central1/app";
+  // const BACKEND_ADDR = "https://us-central1-ensoul-labs-df8ed.cloudfunctions.net/app";
+  const BACKEND_ADDR = "http://localhost:5001/ensoul-labs-df8ed/us-central1/app";
   const sbtAddr = "0xbd86C457eC5Fe66e9f6857b5A56e93B844B084ad";
 
   const faucetHandler = async () => {
