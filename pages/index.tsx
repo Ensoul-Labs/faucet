@@ -108,7 +108,7 @@ export default function Home() {
             <div className="mt-4 w-36 text-center text-sx text-[#818894] font-semibold">Donator</div>
             <div className="mt-4 w-36 text-center text-sm text-[#b1c9f2] font-semibold">Thanks for contribution!</div>
         </div>
-        <button className="btn btn-accent w-[100px] ml-10 mt-5">捐赠</button>
+        <button className="btn btn-accent w-[100px] ml-10 mt-5">Donate</button>
       </div>
       <div className='flex items-center justify-center mt-[100px] ' > 
         <p className='text-1xl mr-5' >Made With ❤️ by </p>
